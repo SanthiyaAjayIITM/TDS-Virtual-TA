@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai
+pydantic
+python-multipart   # for handling file uploads (if needed)
+tiktoken           # for token counting
+requests           # for HTTP requests (scraping data)
+python-dotenv      # for loading .env variables
+
