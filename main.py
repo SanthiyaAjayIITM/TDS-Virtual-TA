@@ -113,14 +113,6 @@ async def answer_question(data: QARequest):
         if cleaned.startswith("```"):
             cleaned = re.sub(r"^```[a-zA-Z]*\n?", "", cleaned)
             cleaned = re.sub(r"\n?```$", "", cleaned)
-     except Exception as e:
-        print("❌ GPT Error:", e)
-        traceback.print_exc()
-        return {
-            "answer": "❌ There was an error generating a response.",
-            "links": []
-        }
-
 
         # Step 2: Try parsing JSON
         try:
@@ -143,5 +135,11 @@ async def answer_question(data: QARequest):
             answer_json["links"] = fixed_links
 
         return answer_json
-
+     except Exception as e:
+        print("❌ GPT Error:", e)
+        traceback.print_exc()
+        return {
+            "answer": "❌ There was an error generating a response.",
+            "links": []
+        }
 
