@@ -7,6 +7,8 @@ import json
 import base64
 from dotenv import load_dotenv
 import re
+import traceback
+
 
 # Load env variables
 load_dotenv()
@@ -121,6 +123,12 @@ async def answer_question(data: QARequest):
                 "answer": "❌ GPT did not return valid JSON. Here's what it returned:\n\n" + cleaned,
                 "links": []
             }
+        except Exception as e:
+            print("❌ GPT Error:", e)
+            return {
+                "answer": "❌ There was an error generating a response.",
+                "links": []
+        }
 
         # Step 3: Ensure 'links' field is always a list of objects
         if "links" in answer_json and isinstance(answer_json["links"], list):
@@ -134,10 +142,4 @@ async def answer_question(data: QARequest):
 
         return answer_json
 
-    except Exception as e:
-        print("❌ GPT Error:", e)
-        return {
-            "answer": "❌ There was an error generating a response.",
-            "links": []
-        }
 
