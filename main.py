@@ -125,6 +125,7 @@ async def answer_question(data: QARequest):
             }
         except Exception as e:
             print("❌ GPT Error:", e)
+            traceback.print_exc()
             return {
                 "answer": "❌ There was an error generating a response.",
                 "links": []
