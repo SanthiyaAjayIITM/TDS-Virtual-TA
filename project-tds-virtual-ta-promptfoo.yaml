@@ -1,0 +1,22 @@
+description: "TDS Virtual TA Sample Questions (custom API test)"
+
+providers:
+  - id: https  # ✅ use 'https' even for local http API
+    config:
+      url: http://127.0.0.1:8000/api/
+      method: POST
+      headers:
+        Content-Type: application/json
+      body: |
+        {
+          "question": "{{ question }}"
+        }
+      transformResponse: json
+
+tests:
+  - vars:
+      question: Should I use gpt-3.5-turbo-0125 or gpt-4o-mini for GA5?
+  - vars:
+      question: If I get 10/10 on GA4 with bonus, what shows on the dashboard?
+  - vars:
+      question: I know Docker but not Podman. Should I use Docker?
