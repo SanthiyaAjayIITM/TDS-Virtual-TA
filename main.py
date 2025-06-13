@@ -113,6 +113,14 @@ async def answer_question(data: QARequest):
         if cleaned.startswith("```"):
             cleaned = re.sub(r"^```[a-zA-Z]*\n?", "", cleaned)
             cleaned = re.sub(r"\n?```$", "", cleaned)
+     except Exception as e:
+        print("❌ GPT Error:", e)
+        traceback.print_exc()
+        return {
+            "answer": "❌ There was an error generating a response.",
+            "links": []
+        }
+
 
         # Step 2: Try parsing JSON
         try:
@@ -123,14 +131,7 @@ async def answer_question(data: QARequest):
                 "answer": "❌ GPT did not return valid JSON. Here's what it returned:\n\n" + cleaned,
                 "links": []
             }
-        except Exception as e:
-            print("❌ GPT Error:", e)
-            traceback.print_exc()
-            return {
-                "answer": "❌ There was an error generating a response.",
-                "links": []
-        }
-
+       
         # Step 3: Ensure 'links' field is always a list of objects
         if "links" in answer_json and isinstance(answer_json["links"], list):
             fixed_links = []
