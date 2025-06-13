@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 import re
 import traceback
 
-
 # Load env variables
 load_dotenv()
 
@@ -66,9 +65,7 @@ Respond with ONLY the following JSON structure:
   ]
 }}
 """
-
     return prompt[:6000]
-
 
 # 🔹 Call GPT model via AI Proxy
 def call_openai(prompt: str) -> str:
@@ -123,7 +120,7 @@ async def answer_question(data: QARequest):
                 "answer": "❌ GPT did not return valid JSON. Here's what it returned:\n\n" + cleaned,
                 "links": []
             }
-       
+
         # Step 3: Ensure 'links' field is always a list of objects
         if "links" in answer_json and isinstance(answer_json["links"], list):
             fixed_links = []
@@ -135,6 +132,7 @@ async def answer_question(data: QARequest):
             answer_json["links"] = fixed_links
 
         return answer_json
+
     except Exception as e:
         print("❌ GPT Error:", e)
         traceback.print_exc()
@@ -142,4 +140,3 @@ async def answer_question(data: QARequest):
             "answer": "❌ There was an error generating a response.",
             "links": []
         }
-
