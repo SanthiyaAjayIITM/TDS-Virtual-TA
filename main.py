@@ -135,7 +135,7 @@ async def answer_question(data: QARequest):
             answer_json["links"] = fixed_links
 
         return answer_json
-     except Exception as e:
+    except Exception as e:
         print("❌ GPT Error:", e)
         traceback.print_exc()
         return {
