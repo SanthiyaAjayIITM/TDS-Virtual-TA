@@ -140,3 +140,7 @@ async def answer_question(data: QARequest):
             "answer": "❌ There was an error generating a response.",
             "links": []
         }
+@app.get("/")
+def home():
+    return {"message": "TDS Virtual TA is running!"}
+
