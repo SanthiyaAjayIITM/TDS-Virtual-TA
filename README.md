@@ -11,7 +11,7 @@ This is a FastAPI-based virtual Teaching Assistant (TA) for the **Tools in Data 
 ## 🌐 Live API
 
 > Once deployed, update this URL:
-
+[Click here to test the API](https://tds-virtual-ta-plum.vercel.app/)
 ---
 
 ## 🚀 Features
