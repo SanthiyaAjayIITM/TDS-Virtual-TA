@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List, Optional
 import os, json, requests, base64, re, traceback
+from dotenv import load_dotenv
+load_dotenv()
 
 app = FastAPI(title="TDS Virtual TA")
 
