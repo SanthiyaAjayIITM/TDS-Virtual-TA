@@ -1,0 +1,1069 @@
+--- GA5 Clarification (Nov 2024) ---
+anand_sir: You must use `gpt-3.5-turbo-0125`, even if AI Proxy doesn’t support it.
+student1: So we should use OpenAI directly?
+anand_sir: Yes, exactly.
+
+Link: https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939
+
+--- Which subject to choose in jan term ---
+
+21f3000745: Hii all…i know this may not be the correct platform to ask this question.<br>
+Actually i have 3 diploma subjects to cover - MLP, JAVA, TDS. So which 2 subject should i choose for this term?
+22f3002293: Don’t take TDS, this subject should be taken in the end else you might have some problem
+carlton: TDS at the end best. Gives you the best chance of doing well in it.
+Kind regards
+Adityach1: Yes you should do tds after mlp only it really help you alot trust me
+23f1001065: You should focus on TDS at latter stage of your diploma
+
+
+--- GA3 - Large Language Models - Discussion Thread [TDS Jan 2025] ---
+
+s.anand: Please post any questions related to <a href="https://exam.sanand.workers.dev/tds-2025-01-ga3">Graded Assignment 3 - Large Language Models</a>.
+<hr>
+<h2><a name="p-579668-important-instruction-1" class="anchor" href="#p-579668-important-instruction-1"></a>Important Instruction</h2>
+Please use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. See below code for example
+<pre data-code-wrap="bash"><code class="lang-bash">ping exam.sanand.workers.dev
+
+Pinging exam.sanand.workers.dev [104.21.31.149] with 32 bytes of data:
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=8ms TTL=58
+Reply from 104.21.31.149: bytes=32 time=9ms TTL=58
+
+Ping statistics for 104.21.31.149:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 9ms, Average = 8ms
+</code></pre>
+Visit this link for more details: <a href="https://www.markdownguide.org/extended-syntax/#fenced-code-blocks" class="inline-onebox">Extended Syntax | Markdown Guide</a>.
+A friendly suggestion: kindly go through <a class="hashtag-cooked" href="/c/docs-discourse/45" data-type="category" data-slug="docs-discourse" data-id="45"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node"><use href="#square-full"></use></svg></span><span>Discourse Docs</span></a>! <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20">
+<hr>
+Deadline: <span class="discourse-local-date" data-date="2025-02-02" data-email-preview="2025-02-02T18:29:00Z UTC" data-format="LLLL" data-time="23:59:00" data-timezone="Asia/Calcutta">Sunday, February 2, 2025 6:29 PM</span>
+<a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a>
+s.anand: 
+nilaychugh: how to get the dummy API key?
+Jivraj: Hi Nilay,
+In order to make a api call to openai chat completions you are required to send authentication information(openai key) in headers. For first question of GA3 you don’t have to send actual(working) api key, any dummy api key would work(you can put your name, or tds anything works)
+kind regards
+nilaychugh: which API should i use in 7th question
+22f3001315: need help in question 4th. how can i correct this json body? sir  <a class="mention" href="/u/jivraj">@Jivraj</a>
+<pre><code class="lang-auto">{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract text from this image."
+    },
+    {
+      "role": "user",
+      "content": {
+        "image_url": "data:image/png;base64,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"
+      }
+    }
+  ]
+}
+
+</code></pre>
+error:The JSON body must have 1 message
+<pre><code class="lang-auto">{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "text": "Extract text from this image.",
+        "image_url": "data:image/png;base64,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"
+      }
+    }
+  ]
+}
+
+</code></pre>
+Error: The message must have a 2 content parts
+22f3001315: <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/carlton">@carlton</a>  sir plz see it once.
+Jivraj: Hi <a class="mention" href="/u/22f3001315">@22f3001315</a> ,
+You are almost correct, there are very minor changes that needs to be made.
+Take help from Chat GPT or use this documentation which have correct json body <a href="https://platform.openai.com/docs/guides/vision" rel="noopener nofollow ugc">Vision - OpenAI API</a>.
+Kind regards<br>
+Jivraj
+22f3001315: it worked thanks sir
+22f3002034: Are we supposed to buy open ai api key ?
+23f2000237: No, if you scroll down to the last question, we can get our Ai Proxy key
+carlton: <a class="mention" href="/u/nilaychugh">@nilaychugh</a> <a class="mention" href="/u/22f3002034">@22f3002034</a>
+The API key is available at <a href="https://aiproxy.sanand.workers.dev/" rel="noopener nofollow ugc">https://aiproxy.sanand.workers.dev/</a>
+The instructions on how to use the token is given at <a href="https://github.com/sanand0/aiproxy" class="inline-onebox" rel="noopener nofollow ugc">GitHub - sanand0/aiproxy: Authorizing proxy for LLMs</a>
+You cannot use this token directly with Open AI or any other gpt. These are only valid via the API exposed by the above instructions.
+You get a limit of $1. Use with care.
+Kind regards
+nilaychugh: but the embedding model that is said to be used is text embedding 3 small, which is the model of OpenAI
+Jivraj: Hi Nilay,
+Yes you would need to use <code>text-embedding-3-small</code> model of openai for embedding questions.
+Kind regards<br>
+Jivraj
+nilaychugh: i have a doubt, while submitting the GA3, both 7th and 8th questions require the API url to be active and connected right, but its not possible as both the URLs use same port, so if we check my 7th question URL is running right now, it’ll show as correct, but then if i  run 8th question URL, the 7th question will automatically show the error, <strong>is there any solution to this problem?</strong>
+21f3002277: Q5.  How to handle the error ? sir <a class="mention" href="/u/jivraj">@Jivraj</a>
+Error: The first input does not match the first text exactly
+21f3002277: Q4. How to handle this error? <a class="mention" href="/u/jivraj">@Jivraj</a>
+<pre><code class="lang-auto">{
+  "id": "chatcmpl-AshDCPwSiXNao1QXmCxCmi63GifFx",
+  "object": "chat.completion",
+  "created": 1737599182,
+  "model": "gpt-4o-mini-2024-07-18",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The image contains an email address and a number. The email address appears to be associated with an educational institution, and the number seems to be a numerical sequence.",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 592,
+    "completion_tokens": 33,
+    "total_tokens": 625,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_bd83329f63",
+  "monthlyCost": 0.05490624000000001,
+  "cost": 0.001974,
+  "monthlyRequests": 14,
+  "costError": "crypto.createHash is not a function"
+}
+</code></pre>
+Error: Model must be gpt-4o-mini
+Jivraj: Hi Nilay,
+<aside class="quote group-ds-students" data-username="nilaychugh" data-post="17" data-topic="163247">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/nilaychugh/48/84996_2.png" class="avatar"> nilaychugh:</div>
+<blockquote>
+both the URLs use same port,
+</blockquote>
+</aside>
+You can run two servers on different port numbers.
+Jivraj: Hi Vikash,
+I looked at your answers in backend. In answer you submitted response from openai, but you need to submit json object which is required for sending a request to LLM.
+Kind regards
+Jivraj: You made same mistake here, instead of response use json body that’s required for sending request to LLM.
+Kind regards
+
+
+--- Tds: assignment is not submitting ---
+
+23f3002530: <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/s.anand">@s.anand</a><br>
+dear sir<br>
+i have taken tds in this term. after the first assignment there was no checkbox provided to any graded assignment .for this reason i just saved the assignment at the portal link .and now after the deadline its showing my assignment had not been submitted. pls do something please do it fast.
+Saransh_Saini: <aside class="quote" data-post="171" data-topic="161120">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/48/123495_2.png" class="avatar">
+    <a href="https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120/171">GA2 - Deployment Tools - Discussion Thread [TDS Jan 2025]</a> <a class="badge-category__wrapper " href="/c/courses/tds-kb/34"><span data-category-id="34" style="--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;" data-parent-category-id="9" data-drop-close="true" class="badge-category --has-parent" title="This category is created to address subject-specific queries related to Tools in Data Science"><span class="badge-category__name">Tools in Data Science</span></span></a>
+  </div>
+  <blockquote>
+    We have removed that button, cause it was causing confusion among the students. 
+If you have saved your answers on the TDS portal then you need not worry, you will be marked. The button was just there to ensure you saw the assignment on the TDS portal. 
+Regards, 
+TDS TA
+  </blockquote>
+</aside>
+
+Read this
+Rishabh2: I saved that too but right now scores of GA2 isn’t visible for me. And in score section it’s showing assignment not submitted. <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a>
+carlton: Your scores are evaluated on a site that is external to the seek portal and is not integrated with the seek portal. Therefore seek does not know if you have submitted or not and by default says that it has not been submitted because it cannot see your external evaluation. There will not be a fix for this for some time.
+Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal.
+<strong>The scores will only be visible in the dashboard.</strong> Just ignore anything inside seek portal. The dashboard is where all your subject score cards exists.
+As stated in multiple places on discourse as well as in live sessions, The final score is always your last submission. If your dashboard score does not match your final submission score on the assignment page, only then contact us regarding your marks.
+Kind regards
+23f3002530: <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/iamprasna">@iamprasna</a>  i have taken tds in this term. after the first assignment there was no checkbox provided to any graded assignment .for this reason i just saved the assignment at the portal link .and now after the deadline its showing my assignment  had not been submitted. pls do something please do it fast.
+shriaviator: <a class="mention" href="/u/23f3002530">@23f3002530</a><br>
+Topic moved to the appropriate category in order to get faster responses.
+<strong>Please make it easier for others to help you, by ensuring that topics are created in the correct categories.</strong>
+carlton: <a class="mention" href="/u/23f3002530">@23f3002530</a>
+Please refer to this post.
+<aside class="quote quote-modified" data-post="6" data-topic="166189">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/48/56317_2.png" class="avatar">
+    <a href="https://discourse.onlinedegree.iitm.ac.in/t/tds-assignment-is-not-submitting/166189/6">Tds: assignment is not submitting</a> <a class="badge-category__wrapper " href="/c/courses/tds-kb/34"><span data-category-id="34" style="--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;" data-parent-category-id="9" data-drop-close="true" class="badge-category --has-parent" title="This category is created to address subject-specific queries related to Tools in Data Science"><span class="badge-category__name">Tools in Data Science</span></span></a>
+  </div>
+  <blockquote>
+    Your scores are evaluated on a site that is external to the seek portal and is not integrated with the seek portal. Therefore seek does not know if you have submitted or not and by default says that it has not been submitted because it cannot see your external evaluation. There will not be a fix for this for some time. 
+Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal. 
+The scores will only be visible in the dashboard. Just ignore anything inside se…
+  </blockquote>
+</aside>
+
+Kind regards
+bhavanagv: <div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/d/5/d51f4ef2faa1d935371f7b95e9d49a85435b481d.png" data-download-href="/uploads/short-url/upmMiZ8OcYksWdOArCnDkTjSw21.png?dl=1" title="Screenshot (313)" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/5/d51f4ef2faa1d935371f7b95e9d49a85435b481d_2_690x388.png" alt="Screenshot (313)" data-base62-sha1="upmMiZ8OcYksWdOArCnDkTjSw21" width="690" height="388" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/5/d51f4ef2faa1d935371f7b95e9d49a85435b481d_2_690x388.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/5/d51f4ef2faa1d935371f7b95e9d49a85435b481d_2_1035x582.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/5/d51f4ef2faa1d935371f7b95e9d49a85435b481d_2_1380x776.png 2x" data-dominant-color="E8E6E7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot (313)</span><span class="informations">1920×1080 243 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+carlton: Dear Bhavanagv,
+The scores have not been pushed to the dashboard yet. Ignore seek portal. Seek portal will not have your submission or your scores because it is evaluated externally from the seek portal.
+Kind regards
+22f3000585: I had submitted the assignment still it’s shwoing that my score is 0 and that i have not submitted the assignment.
+Can you please look into it as i had saved my answers as well timely.<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/1/51fd5a5ad1f47e528360f19eb4fcaaccc3cee612.png" data-download-href="/uploads/short-url/bHjtQ60wOL2wEIVXvst6qkVbToK.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/1/51fd5a5ad1f47e528360f19eb4fcaaccc3cee612.png" alt="image" data-base62-sha1="bHjtQ60wOL2wEIVXvst6qkVbToK" width="547" height="258"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">547×258 12.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+Pururaj: same thing with my assignment even though i submitted it
+Jivraj: Scores will soon be pushed to seek portal, till then it will show 0.
+HRISHIKESH: Same for me…deadline is over and assignment not submitted…
+23f2003413: same issue here as well
+SameerNaik: Yes, same observation for my assignment as well.
+carlton: Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal.
+The scores will only be visible in the dashboard. Just ignore anything inside the seek portal.
+As stated in multiple places in discourse as well as in live sessions, The final score is always your last submission.
+Kind regards
+23f2000232: There are some errors in grading for GA2 and  GA3 for TDS, even after submitting the assignments score 0 was given and the seek portal displayed assignment was not submitted given that the login was from my own account and was submitted before the time and still got a score of 0.<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/2/9/29b6332cf814991a2cdae74355e67478bcc57c57.png" data-download-href="/uploads/short-url/5WZW8Qh7uYZO6ttrWAT1OeRBBqf.png?dl=1" title="Screenshot 2025-02-07 201316" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/9/29b6332cf814991a2cdae74355e67478bcc57c57_2_690x356.png" alt="Screenshot 2025-02-07 201316" data-base62-sha1="5WZW8Qh7uYZO6ttrWAT1OeRBBqf" width="690" height="356" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/9/29b6332cf814991a2cdae74355e67478bcc57c57_2_690x356.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/9/29b6332cf814991a2cdae74355e67478bcc57c57_2_1035x534.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/9/29b6332cf814991a2cdae74355e67478bcc57c57_2_1380x712.png 2x" data-dominant-color="282C2F"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2025-02-07 201316</span><span class="informations">1859×960 88.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+and the same happened for the 3rd assignment
+carlton: Please refer to this post.
+<aside class="quote" data-post="20" data-topic="166189">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/48/56317_2.png" class="avatar">
+    <a href="https://discourse.onlinedegree.iitm.ac.in/t/tds-assignment-is-not-submitting/166189/20">Tds: assignment is not submitting</a> <a class="badge-category__wrapper " href="/c/courses/tds-kb/34"><span data-category-id="34" style="--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;" data-parent-category-id="9" data-drop-close="true" class="badge-category --has-parent" title="This category is created to address subject-specific queries related to Tools in Data Science"><span class="badge-category__name">Tools in Data Science</span></span></a>
+  </div>
+  <blockquote>
+    Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal. 
+The scores will only be visible in the dashboard. Just ignore anything inside the seek portal. 
+As stated in multiple places in discourse as well as in live sessions, The final score is always your last submission. 
+Kind regards
+  </blockquote>
+</aside>
+Dnyanu27: Only 1st Graded assignment scores are visible on dashboard.  I have submitted 2nd and 3rd GA before the deadline but still it showing “not submitted” on the seek portal…
+21f3000697: I recently got mail and checked my marks for GA2 and noticed that the final score is showing as <strong>4.25</strong>, but while attempting the assignment earlier, I had scored <strong>7.25</strong> shown after submission.
+Could you please help me understand how the marks were reduced? I want to ensure there was no error or misunderstanding in the evaluation.
+
+
+--- Project 1 Evaluation second mail is not correct and reports files missing while they are present ---
+
+22f3001832: Mail I received Yesterday:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/0/f001f7be7e533353ac4526f1cf9d82d4211ea6e1.png" data-download-href="/uploads/short-url/yfcO90aYRWfjsejDEFqU65TEna9.png?dl=1" title="Screenshot from 2025-04-01 09-01-07" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/0/f001f7be7e533353ac4526f1cf9d82d4211ea6e1_2_690x265.png" alt="Screenshot from 2025-04-01 09-01-07" data-base62-sha1="yfcO90aYRWfjsejDEFqU65TEna9" width="690" height="265" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/0/f001f7be7e533353ac4526f1cf9d82d4211ea6e1_2_690x265.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/0/f001f7be7e533353ac4526f1cf9d82d4211ea6e1_2_1035x397.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/0/f001f7be7e533353ac4526f1cf9d82d4211ea6e1.png 2x" data-dominant-color="F5F5F5"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot from 2025-04-01 09-01-07</span><span class="informations">1174×451 54.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+Previous Correct Evaluation Mail:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/6/b/6bb4d7ba36bee2297d141e76bff49f40efe201ef.png" data-download-href="/uploads/short-url/fmOxFj4s1mPkz7XLOvb2GXMu62H.png?dl=1" title="Screenshot from 2025-04-01 09-02-35" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/b/6bb4d7ba36bee2297d141e76bff49f40efe201ef_2_690x265.png" alt="Screenshot from 2025-04-01 09-02-35" data-base62-sha1="fmOxFj4s1mPkz7XLOvb2GXMu62H" width="690" height="265" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/b/6bb4d7ba36bee2297d141e76bff49f40efe201ef_2_690x265.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/b/6bb4d7ba36bee2297d141e76bff49f40efe201ef_2_1035x397.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/6/b/6bb4d7ba36bee2297d141e76bff49f40efe201ef_2_1380x530.png 2x" data-dominant-color="EFF0F0"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot from 2025-04-01 09-02-35</span><span class="informations">1687×650 144 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+Good Morning Sir,
+This is my github repo: <a href="https://github.com/kohliaryan/TDS_Project_1" class="inline-onebox" rel="noopener nofollow ugc">GitHub - kohliaryan/TDS_Project_1</a> ()You can verify that it is public, MIT License is present and Dockerfile is also present.)
+I also got a mail 2 days ago in which everything is mentioned correctly but the mail I got yesterday worry me.  Sir, I have worked really hard for project 1. Please look into this matter.<br>
+<a class="mention" href="/u/carlton">@carlton</a>
+22f3001832: <a class="mention" href="/u/jivraj">@Jivraj</a> Sir, Please look into in this matter, no reply from your side till now and 2 days have been passed.
+carlton: Apologies for that,
+The second email was an automated script that used a stricter criteria. You have passed evaluation and also have a score. So dont worry. We will push scores over this weekend. We are currently doing normalisation.
+Kind regards
+23f2000345: Hi <a class="mention" href="/u/carlton">@carlton</a>,
+I’m experiencing the same issue mentioned in this thread regarding Project 1 evaluation emails:
+<ol>
+<li>The first email I received confirmed all requirements were met (public repo, MIT License, Dockerfile, etc.)</li>
+<li>The second email incorrectly flagged missing files despite their presence in my repository</li>
+</ol>
+Here are screenshots of both emails showing the discrepancy:
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/b/ab6e90977d3a9f6e9a01fd75e236dcbef7834623.png" data-download-href="/uploads/short-url/osywWWw7Rkajc8gKaJy0yQL5QTV.png?dl=1" title="First Evaluation Email" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/b/ab6e90977d3a9f6e9a01fd75e236dcbef7834623_2_690x330.png" alt="First Evaluation Email" data-base62-sha1="osywWWw7Rkajc8gKaJy0yQL5QTV" width="690" height="330" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/b/ab6e90977d3a9f6e9a01fd75e236dcbef7834623_2_690x330.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/b/ab6e90977d3a9f6e9a01fd75e236dcbef7834623_2_1035x495.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/b/ab6e90977d3a9f6e9a01fd75e236dcbef7834623_2_1380x660.png 2x" data-dominant-color="F1F1F2"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">First Evaluation Email</span><span class="informations">1511×724 76.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/e/6/e658099edcddd2b1b01d88e400b0f0439aa2fd2e.png" data-download-href="/uploads/short-url/wRIr95Iz3CVtTmvWFTHHfe44dyu.png?dl=1" title="Second Evaluation Email" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/6/e658099edcddd2b1b01d88e400b0f0439aa2fd2e_2_690x376.png" alt="Second Evaluation Email" data-base62-sha1="wRIr95Iz3CVtTmvWFTHHfe44dyu" width="690" height="376" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/6/e658099edcddd2b1b01d88e400b0f0439aa2fd2e_2_690x376.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/6/e658099edcddd2b1b01d88e400b0f0439aa2fd2e_2_1035x564.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/e/6/e658099edcddd2b1b01d88e400b0f0439aa2fd2e.png 2x" data-dominant-color="F8F8F8"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Second Evaluation Email</span><span class="informations">1247×681 37.5 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+My GitHub repo remains publicly accessible with all required components:<br>
+<a href="https://github.com/23f2000345/TDS_final" rel="noopener nofollow ugc">GitHub repo</a>
+Could you please confirm this was an automated error and that my submission will be evaluated based on the actual repository contents? Your clarification would be greatly appreciated.
+Thank you for your time and assistance!
+carlton: Hi,
+Prerequisite checks have passed. But your docker image was missing a dependency that you forgot to copy into the image. so it failed to evaluate because it failed to run.
+22f3001832: You talking about me or <a class="mention" href="/u/23f2000345">@23f2000345</a> ?
+Sudhishnarayan: Good Morning Sir, Actually even I got the mail regarding Project-1 Evaluation, where I got the message like the prerequisites were not met. But, sir actually I have uploaded my MIT License file, requirements.txt file, my Project.py file and the Dockerfile. Sir, and when I sent a request to my API from my device, it worked sir. I have got 0 in my project 1 sir, but I have met the pre-requisites Can you please check this once sir?
+My GitHub repository for Project-1: <a href="https://github.com/sudhishssn134/project_1_tds" class="inline-onebox" rel="noopener nofollow ugc">GitHub - sudhishssn134/project_1_tds</a>
+Thanking You
+Just attaching the mail I recieved.<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/7/a77330c5ca74ed0246bc22e4321710554cd27866.png" data-download-href="/uploads/short-url/nTkwZr7ndRYAWgE2JB3jIqFz4rk.png?dl=1" title="Screenshot 2025-04-12 104211" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/7/a77330c5ca74ed0246bc22e4321710554cd27866_2_690x362.png" alt="Screenshot 2025-04-12 104211" data-base62-sha1="nTkwZr7ndRYAWgE2JB3jIqFz4rk" width="690" height="362" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/7/a77330c5ca74ed0246bc22e4321710554cd27866_2_690x362.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/7/a77330c5ca74ed0246bc22e4321710554cd27866_2_1035x543.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/7/a77330c5ca74ed0246bc22e4321710554cd27866_2_1380x724.png 2x" data-dominant-color="F1F2F2"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2025-04-12 104211</span><span class="informations">1429×750 71 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+carlton: Your Dockerfile was misconfigured. When we try to build the docker image from your github repo, we get this error:
+<code>tried copying parent folder(COPY failed: forbidden path outside the build context: .. ())</code>
+You have to replicate the test environment. If it works when you follow this test setup then you should get in touch with us.<aside class="quote quote-modified" data-post="316" data-topic="171141">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/48/56317_2.png" class="avatar">
+    <a href="https://discourse.onlinedegree.iitm.ac.in/t/tds-official-project1-discrepencies/171141/316">Tds-official-Project1-discrepencies</a> <a class="badge-category__wrapper " href="/c/courses/tds-kb/34"><span data-category-id="34" style="--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;" data-parent-category-id="9" data-drop-close="true" class="badge-category --has-parent" title="This category is created to address subject-specific queries related to Tools in Data Science"><span class="badge-category__name">Tools in Data Science</span></span></a>
+  </div>
+  <blockquote>
+    To replicate the test environment: 
+Fetch the github repo’s latest commit before 18th feb use below code for that. You need to have github cli installed on your system and need authentication for certain github api enpoint access. Once authenticated and providing the appropriate repo details you can  run this code using uv. 
+# /// script
+# dependencies = [
+#   "requests",
+# ]
+# ///
+
+import requests
+import datetime as dt
+import zoneinfo
+import argparse
+import os
+import zipfile
+
+parser = argparse.…
+  </blockquote>
+</aside>
+Sudhishnarayan: Oh OK Sir. I will try it out. Thank You so much sir
+Sudhishnarayan: Sir, I have extracted the files from the GitHub Repository, built my DockerFile withe the DockerImage I have posted. The build is successful and the dockerimage is also running sir. I have attached the screen shot below<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/f/5f58734cfd90a7011b3effca56b9023d51b773c0.png" data-download-href="/uploads/short-url/dBsRyoAfPZZ0uPWv6BaWMFfsBWM.png?dl=1" title="Screenshot 2025-04-12 115342" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/f/5f58734cfd90a7011b3effca56b9023d51b773c0.png" alt="Screenshot 2025-04-12 115342" data-base62-sha1="dBsRyoAfPZZ0uPWv6BaWMFfsBWM" width="690" height="330" data-dominant-color="141C22"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2025-04-12 115342</span><span class="informations">1466×702 50.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+Sir, But I couldn’t run the last command you gave,
+<pre><code class="lang-auto">uv run evaluate.py --email &lt;any email&gt; --token_counter 1 --external_port 8000
+</code></pre>
+As I dont have evaluate.py
+But, the DockerImage is built and is running without error sir.<br>
+Please guide me after this sir<br>
+Thank You So much sir
+Sudhishnarayan: Sir, I have extracted the files from the GitHub Repository, built my DockerFile withe the DockerImage I have posted. The build is successful and the dockerimage is also running sir. I have attached the screen shot below
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/f/5f58734cfd90a7011b3effca56b9023d51b773c0.png" data-download-href="/uploads/short-url/dBsRyoAfPZZ0uPWv6BaWMFfsBWM.png?dl=1" title="Screenshot 2025-04-12 115342" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/f/5f58734cfd90a7011b3effca56b9023d51b773c0.png" alt="Screenshot 2025-04-12 115342" data-base62-sha1="dBsRyoAfPZZ0uPWv6BaWMFfsBWM" width="690" height="330" data-dominant-color="141C22"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2025-04-12 115342</span><span class="informations">1466×702 50.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+Sir, But I couldn’t run the last command you gave,
+<pre><code class="lang-auto">uv run evaluate.py --email &lt;any email&gt; --token_counter 1 --external_port 8000
+</code></pre>
+As I dont have evaluate.py
+But, the DockerImage is built and is running without error sir.<br>
+Please guide me after this sir<br>
+Thank You So much sir
+Jivraj: <aside class="quote" data-post="32" data-topic="173172">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/48.png" class="avatar">
+    <a href="https://discourse.onlinedegree.iitm.ac.in/t/urgent-attn-req-technical-discrepancy-and-inconsistency-in-the-evaluation-scripts-of-graded-assignment-and-project-2/173172/32">URGENT ATTN REQ: technical discrepancy and inconsistency in the evaluation scripts of graded assignment and project 2</a> <a class="badge-category__wrapper " href="/c/courses/tds-kb/34"><span data-category-id="34" style="--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;" data-parent-category-id="9" data-drop-close="true" class="badge-category --has-parent" title="This category is created to address subject-specific queries related to Tools in Data Science"><span class="badge-category__name">Tools in Data Science</span></span></a>
+  </div>
+  <blockquote>
+    Project 1 : You tried to copy parent folder(Ref:line number 8 in your <a href="https://github.com/sudhishssn134/project_1_tds/blob/main/Dockerfile" rel="noopener nofollow ugc">Dockerfile</a>) but there is no parent folder with respect to github repo’s root folder, so it fails evaluation. 
+Project 2 : Response we received through google form was <a href="http://127.0.0.1:8000/api" rel="noopener nofollow ugc">http://127.0.0.1:8000/api</a> which is local host url not a vercel endpoint.
+  </blockquote>
+</aside>
+
+
+--- Project 2 - TDS Solver - Discussion Thread ---
+
+s.anand: Please post any questions related to <a href="https://tds.s-anand.net/#/project-2">Project 2 - TDS Solver</a>.
+Deadline: <span class="discourse-local-date" data-date="2025-03-31" data-email-preview="2025-03-31T18:29:00Z UTC" data-format="LLLL" data-time="23:59:00" data-timezone="Asia/Calcutta">Monday, March 31, 2025 6:29 PM</span>
+s.anand: 
+23f1002382: If someone Scrapes the GA Questions with Answers , Can you Please Send them , All of us have might have different GAs (a lil bit maybe), so more data more helpful. PLEASE HELP…<aside class="quote quote-modified" data-post="1" data-topic="169045">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/48/68945_2.png" class="avatar">
+    <a href="https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045">Project 2 - TDS Solver - Shared Data Pool</a> <a class="badge-category__wrapper " href="/c/courses/tds-kb/34"><span data-category-id="34" style="--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;" data-parent-category-id="9" data-drop-close="true" class="badge-category --has-parent" title="This category is created to address subject-specific queries related to Tools in Data Science"><span class="badge-category__name">Tools in Data Science</span></span></a>
+  </div>
+  <blockquote>
+    <a name="p-602891-project-2-tds-solver-discussion-thread-1" class="anchor" href="#p-602891-project-2-tds-solver-discussion-thread-1"></a>Project 2 - TDS Solver - Discussion Thread
+<a name="p-602891-creating-this-thread-to-share-answers-and-questions-from-your-respective-assignments-2" class="anchor" href="#p-602891-creating-this-thread-to-share-answers-and-questions-from-your-respective-assignments-2"></a>Creating this Thread to share answers and questions from your respective assignments
+<a name="p-602891-why-3" class="anchor" href="#p-602891-why-3"></a>Why? <img width="20" height="20" src="https://emoji.discourse-cdn.com/google/interrobang.png?v=12" title="interrobang" alt="interrobang" class="emoji"><img width="20" height="20" src="https://emoji.discourse-cdn.com/google/thinking.png?v=12" title="thinking" alt="thinking" class="emoji">
+If we can Train the LLM with these Questions already, we can easily do well? 
+<a name="p-602891-too-many-questions-for-llm-4" class="anchor" href="#p-602891-too-many-questions-for-llm-4"></a>Too many Questions for LLM <img width="20" height="20" src="https://emoji.discourse-cdn.com/google/nerd_face.png?v=12" title="nerd_face" alt="nerd_face" class="emoji"><img width="20" height="20" src="https://emoji.discourse-cdn.com/google/nerd_face.png?v=12" title="nerd_face" alt="nerd_face" class="emoji"><img width="20" height="20" src="https://emoji.discourse-cdn.com/google/nerd_face.png?v=12" title="nerd_face" alt="nerd_face" class="emoji">
+True we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer 
+<a name="p-602891-what-we-need-from-you-5" class="anchor" href="#p-602891-what-we-need-from-you-5"></a>What We need from YOU 🫵🏽
+Get to scraping your respective Gra…
+  </blockquote>
+</aside>
+<span class="mention">@all</span>
+22f3002867: is it possible to have written solutions to all 5 assignments , instead of just live sessions. I have certain pending questions from the first 5 assignements.
+22f3002291: Please quickly arrange a live TDS session to explain this project. There are a lot of doubts and questions in our minds.
+22f3002291: Please also give access to the answers for GAs. So that we can evaluate our api with the correct answers.
+24f2003130: <a class="mention" href="/u/carlton">@carlton</a> sir, is there any bonus marks for code uniqueness and extra tasks like project 1
+23f3001743: If we use ngrok to create a tunnel to our API or Llamafile server, for how long should our terminal remain running? Should it be active only at the time of submission, or must it be continuously available until evaluation is completed?
+23f2000573: Is it like only the questions from the portal will be sent to the api?
+If yes, is this project just about finding which question is asked and accordingly match the answer send the answer as response?
+24f2006531: <div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/3/53bf199bb686fb99cd7b6974c6971326fb8c8482.png" data-download-href="/uploads/short-url/bWR3IysfcTnDLV6d4UxVfDTqCEW.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/3/53bf199bb686fb99cd7b6974c6971326fb8c8482.png" alt="image" data-base62-sha1="bWR3IysfcTnDLV6d4UxVfDTqCEW" width="690" height="127" data-dominant-color="2F393F"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">935×173 6.54 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+Hello Sir,
+I understand that we can deploy on vercel. Can it be deployed on Heroku as well? I believe both serve the same purpose. Wanted to know your thoughts on the same sir.
+Thanks and Regards<br>
+Shalini
+Jivraj: If you use ngrok, ensure that it is running continuously until you get your results
+Jivraj: Any question from first 5 Ga’s can be there and you would need to analyze which question it is, you can use function calling or prompting as well. Function calling is better approach here.
+Jivraj: Hi <a class="mention" href="/u/24f2006531">@24f2006531</a>
+You can deploy it anywhere, just test how it works on Heroku, if it works(send request to api endpoint to your application and it should respond with answer)
+Kind regards
+22f3001315: will the asked question be same which was asked in my GAs (i mean there were variations in problem statements for diff-diff students.)<br>
+<a class="mention" href="/u/jivraj">@Jivraj</a>  sir
+Yogesh1: Was the variation because of the datasets? Or even the problem statement?
+22f3001315: Mostly problem statement like different cities etc
+Yogesh1: Then it comes down to what the project demands, as in what kind of questions the llm will be tested on (like you said). Hope the team can give us a test set like in the first project.
+nilaychugh: my question is some graded assignments have image files as a answer, so should our api return files as the answer or like can you clarify what type of answers we need to work on?
+23f2000237: I guess yes, our APIs should return photos if required
+Jivraj: <span class="mention">@all</span>
+Keep posting your doubts here we will have answers to all of your doubts   In Thursday’s session.
+Kind regards
+
+
+--- Tds-official-Project1-discrepencies ---
+
+Jivraj: Please post any discrepancies related to project1.
+<a class="mention" href="/u/carlton">@carlton</a>
+<h2><a name="p-612319-who-were-evaluated-how-did-we-decide-what-to-evaluate-1" class="anchor" href="#p-612319-who-were-evaluated-how-did-we-decide-what-to-evaluate-1"></a>Who were evaluated? How did we decide what to evaluate?</h2>
+All the image ids we evaluated were what <em>you</em> submitted to us. This is the list of docker repos that was given to us by <a class="mention" href="/u/s.anand">@s.anand</a> as the official list that met all the pre-requisites of Project 1. Therefore we will only evaluate those on this list who are eligible for evaluation with the repos <em>you</em> gave us.
+For clarity. Your docker repo gets a unique id every time it is changed. We will ONLY evaluate the image id which was present at the time of the docker repo being pulled. This acts as a time stamped frozen version of your repo. No other image id will be evaluated.
+<h2><a name="p-612319-how-to-fix-bugs-in-our-scripts-2" class="anchor" href="#p-612319-how-to-fix-bugs-in-our-scripts-2"></a>How to fix bugs in our scripts</h2>
+Create Pull requests to <a href="https://github.com/Jivraj-18/tds-jan25-project1" rel="noopener nofollow ugc">Jivraj-18/tds-jan25-project1</a> .
+<h3><a name="p-612319-docker-image-architecture-issue-report-3" class="anchor" href="#p-612319-docker-image-architecture-issue-report-3"></a><strong>Docker Image Architecture Issue Report</strong></h3>
+If your Docker image was run on the wrong architecture, please fill out this form:<br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSerCpqod-5ArJWTW_QW5PenyfZJHH_cmcUw3s8dAoG3zDZm8g/viewform?usp=sharing" rel="noopener nofollow ugc">Submit Report</a>
+<h2><a name="p-612319-bug-fixes-4" class="anchor" href="#p-612319-bug-fixes-4"></a>Bug fixes</h2>
+If you find bugs in our evaluation scripts, you might benefit from more marks because of the bug fix. So it is in your interest to look through our scripts and logs and identify bugs or anomalies. You might just go from 0 to heros.
+Kind regards,<br>
+TDS Team
+Jivraj: 
+23f2004912: What is the highest mark anyone has scored? Is it 22/20<br>
+<a class="mention" href="/u/carlton">@Carlton</a>?
+23f2005702: How come me and my group used same code but some got 10 some 11 some 12?
+Yogesh1: <a class="mention" href="/u/carlton">@carlton</a> Please make clear what the average marks are, what highest marks are, and how the project will be evaulated.
+We are very close to the end semester exam, and we are still not clear on assignment and project marks. It is a bit frustrating to plan in such circumstances.
+carlton: You have to see the logs for that. We have shared the logs. Everyone was graded by the exact same code, so there is no partiality. Your code did not produce consistent results.
+22f3002933: I have noticed that my image was run on a <code>x86_64</code> architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is <code>ARM</code>. This is why I can see that my docker image never ran properly and threw the <code>exec format error</code>.
+This was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine.
+22f2001389: My evaluation log file is missing, although I followed all the steps to generate the docker image correctly, it’s showing the server didn’t start for 5 minutes but when I uploaded it, it was working fine. Please help me out sir, I worked hard on the project. I’ll get a zero, but I made the submissions correctly. Some other student also got the “server didn’t start in 5 minutes” but he has an evaluation log file. Please kindly help me out. My roll no. is 22f2001389
+carlton: We will check and rerun on arm if we ran it on the wrong emulation.
+22f2001389: Any suggestions for my case sir ? I’m really tensed.
+21f2000709: <aside class="quote group-ds-students" data-username="22f3002933" data-post="7" data-topic="171141" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002933/48/118648_2.png" class="avatar"> 22f3002933:</div>
+<blockquote>
+I have noticed that my image was run on a <code>x86_64</code> architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is <code>ARM</code>. This is why I can see that my docker image never ran properly and threw the <code>exec format error</code>.
+This was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine.
+</blockquote>
+</aside>
+<a class="mention" href="/u/carlton">@carlton</a>  same issue, My image was also run on a <code>x86_64</code> architecture. I too built on my mac which is <code>ARM</code> (M1 Processor). I too can see that my docker image never ran properly and threw the <code>exec format error</code>  and  <strong>Evaluation log file</strong> is MISSING.
+Actually my image was run on x86_64 architecture as it was present in that log file and because of the wrong architecture it never started.
+I also request that my evaluation be done again on the right machine.
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/b/0b6f4a9053f0f57c567c507af19f734eb316ca4d.png" data-download-href="/uploads/short-url/1D9GWomxCCPhEXmDHFBTtjBrktv.png?dl=1" title="Screenshot 2025-03-29 at 12.51.59 AM" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/b/0b6f4a9053f0f57c567c507af19f734eb316ca4d_2_690x77.png" alt="Screenshot 2025-03-29 at 12.51.59 AM" data-base62-sha1="1D9GWomxCCPhEXmDHFBTtjBrktv" width="690" height="77" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/b/0b6f4a9053f0f57c567c507af19f734eb316ca4d_2_690x77.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/b/0b6f4a9053f0f57c567c507af19f734eb316ca4d_2_1035x115.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/b/0b6f4a9053f0f57c567c507af19f734eb316ca4d_2_1380x154.png 2x" data-dominant-color="14181E"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2025-03-29 at 12.51.59 AM</span><span class="informations">1613×182 19.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+Even just now I tried running the exact image:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/a/4ab114b0db84001838ccde428fb3ece583a87cd2.png" data-download-href="/uploads/short-url/aEKJ3xEMEb2zZOOQ8zF6qW7COTU.png?dl=1" title="Screenshot 2025-03-29 at 12.53.35 AM" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/a/4ab114b0db84001838ccde428fb3ece583a87cd2_2_690x95.png" alt="Screenshot 2025-03-29 at 12.53.35 AM" data-base62-sha1="aEKJ3xEMEb2zZOOQ8zF6qW7COTU" width="690" height="95" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/a/4ab114b0db84001838ccde428fb3ece583a87cd2_2_690x95.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/a/4ab114b0db84001838ccde428fb3ece583a87cd2_2_1035x142.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/a/4ab114b0db84001838ccde428fb3ece583a87cd2.png 2x" data-dominant-color="323232"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot 2025-03-29 at 12.53.35 AM</span><span class="informations">1220×169 25.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+It is running fine on my macbook air m1 (ARM)
+<a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a>
+23f1002056: <aside class="quote group-ds-students" data-username="22f2001389" data-post="8" data-topic="171141">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/22f2001389/48/12849_2.png" class="avatar"> 22f2001389:</div>
+<blockquote>
+uploaded
+</blockquote>
+</aside>
+Facing the same issue sir, kindly look into it. I had made sure all the files including the docker file were working perfectly fine. Please help me out.<br>
+Roll no. 23f1002056
+22f1000703: My evaluation log file is missing in report provided. It says tasksA was not found. but I have submitted tasksA in my project file. Also it says server didnt start for 5 mins but for me image was working fine. please kindly help me out. I have made submissions correctly. I request for re evaluation of my project. my roll no is 22f1000703
+22f3003083: Respected,
+I haven’t received any mail yet regarding the TDS Project 1 marks.<br>
+Please look into it.
+Regards,<br>
+Soham
+AYUSH_SINGH: My evaluation log file is missing.<br>
+The 2 other log files i’m given doesnt have my email inside it listed.<br>
+the Image id which is given in the MAIL is not present in my docker desktop, my project’s docker image is listed in docker desktop, which doesnot matches the image id given in the MAIL,<br>
+What was evaluated? How it was evaluated?
+This is the id of the docker image that was evaluated: 0ade87d1bf07
+My terminal shows 2 images as last, with respective image ids. I am not sure which one is the real, so please check with both the ids.<br>
+tds-project-1              latest    c854274f078d   5 weeks ago    1.38GB<br>
+ayush6871/fastapi-agent    latest    27e8375b0ab1   6 weeks ago    1.66GB
+I am requesting to look into this case. I think there has been some mistake somewhere.
+21f3001194
+Adithya: I have also built the image on Mac and facing the same issue
+<code>exec format error</code>
+It is running fine on my Macbook Pro M1
+<a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/jivraj">@Jivraj</a>
+22f2001389: Sir I have noticed a technical glitch for the docker issue, wherein I mistakenly uploaded the wrong docker image link so kindly please kindly re evaluate it.
+Abhay222: Sir I haven’t received any mail regarding this Project1 marks. <a class="mention" href="/u/jivraj">@Jivraj</a>  <a class="mention" href="/u/carlton">@carlton</a>
+21f3000512: <a class="mention" href="/u/carlton">@carlton</a> Sir , my Docker image is built on Macbook M1 which as you know uses ARM64 architecture . But evaluated with x86_64 which caused the exec format error due to cross platform compatibility issues . I am kindly requesting you to re-evaluate the project once again .
+HarshJaiswal: This is the id of the docker image that was evaluated: d0f14a872042  , but i had never provided this docker image then how it get evaluated, also none of the docker image created by me has this id.
+Please, look over it.
+Regards,<br>
+Harsh Jaiswal<br>
+23f1001995
+
+
+--- Bonus Marks in TDS for Jan 25 ---
+
+23f2004636: <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> Greetings sir!<br>
+Sir, I have a query about the criteria for earning bonus marks in the TDS course. I’ve noticed that some students who completed GA7 are receiving bonus marks for extra peer reviews (5 bonus marks is quite significant as it improves grades as well). However, what about those of us who completed all 6 assignments but missed GA7 for some reason?<br>
+As the course is quite challenging due to the vast syllabus, bonus marks would be really helpful for many of us. Could you kindly clarify the situation?
+Thank you and Regards<br>
+Akshit
+lakshaygarg654: Yes, I also missed the same assignment due to pressure from other courses.<br>
+However, awarding a 5-mark bonus instead of a percentile-based system like GA4 seems quite different.<br>
+Is this information available to everyone <a class="mention" href="/u/carlton">@carlton</a> sir?
+21f2000588: Hello <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/s.anand">@s.anand</a> sir,<br>
+I hope you are doing well.
+As per the grading document, we were informed that only the best 4 out of the 7 assessments would be considered for grading. However, there was no mention of bonus marks, and before the deadline, we were not informed about the +5 bonus marks for GA7. Due to other academic commitments, such as Project 2, some of us were unable to complete GA7.
+Now, we have come to know that some of our peers have received an email stating that they have been awarded +5 bonus marks, which directly contribute to the final score. In some cases, this may even impact the final grade. Since this information was not communicated earlier, we kindly request you to consider providing an alternative way for those who missed GA7 to earn these bonus marks—perhaps through reviewing submissions or another form of assessment.
+We sincerely request your understanding on this matter and would be grateful if you could provide an opportunity for us to earn the bonus marks as well.
+Looking forward to your kind consideration.
+Best regards,<br>
+Digvijaysinh Chudasama
+Sagan: The Same happened to me. They should have informed this before.
+Harshjayswal-2003: Hello <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/s.anand">@s.anand</a> sir,<br>
+I hope you are doing well.
+As per the grading document, we were informed that only the best 4 out of the 7 assessments would be considered for grading. However, there was no mention of bonus marks, and before the deadline, we were not informed about the +5 bonus marks for GA7. Due to other academic commitments, such as Project 2, some of us were unable to complete GA7.
+Now, we have come to know that some of our peers have received an email stating that they have been awarded +5 bonus marks, which directly contribute to the final score. In some cases, this may even impact the final grade. Since this information was not communicated earlier, we kindly request you to consider providing an alternative way for those who missed GA7 to earn these bonus marks—perhaps through reviewing submissions or another form of assessment.
+We sincerely request your understanding on this matter and would be grateful if you could provide an opportunity for us to earn the bonus marks as well.
+Looking forward to your kind consideration.
+Best regards,<br>
+HARSH JAYSWAL
+Harshjayswal-2003: <a class="mention" href="/u/s.anand">@s.anand</a> <a class="mention" href="/u/carlton">@carlton</a> same happens for me also sir plz look into this matter.
+23f2004912: <strong><a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/s.anand">@s.anand</a></strong><br>
+There seems to be a sudden and unannounced change in the GA marking scheme, which feels quite arbitrary. Initially, we were told that GA would carry 15% weight, calculated as the best 4 out of 7. Based on this, after scoring full marks in four GAs, I didn’t attempt the rest. Even then, I did complete GA5 and GA6, which you can verify.
+Now I’m seeing in groups that there’s an “extra benefit” being given for GA7. If any changes are being made to the evaluation criteria, they should be communicated clearly via email or discourse. Transparency is important, and as students, we have the right to be informed about such decisions in advance.
+I could point out several other issues, but to keep it brief — grading should be fair and consistent. Every student deserves an equal opportunity, and if GA7 is being considered differently, everyone should have the chance to attempt or review it accordingly.
+<strong><a class="mention" href="/u/carlton">@carlton</a></strong>, we request you to kindly consider this matter. We are looking forward to a quick response — hopefully one that ensures fairness for all students.
+vikramjncasr: <a class="mention" href="/u/carlton">@carlton</a> sir ,
+This would be a deviation from the grading format right sir? As some of us were proactive and closed the 4 GA requirement earlier, if such extra weightage is given to a certain  GA unannounced then how is it fair on the other students ?<br>
+Kindly consider
+23f2004837: same for me also …<br>
+Please consider all the GA for the calculation and give bonus based on the overall performance in GA’s instead of one GA.<br>
+<a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a>
+mahi.13: Exactly! This should have been informed beforehand.<br>
+It’s really unfair
+23f2004793: It the team wants to give bonus marks then why specifically to peer review week-7 ? Like all the GAs were equally important ! So please do something about this.
+akashkunwar: <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/s.anand">@s.anand</a><br>
+I have completed 5 GAs, but missed others due to the time commitment required, along with managing three other subjects and one project. I kindly request that 5 bonus marks be awarded to all, as the additional marks for GA were not communicated earlier. This could result in a disadvantage for those of us who were unaware of the extra marks for GA7. Thank you for considering this.
+Regards:<br>
+Akash
+23f2004912: <a class="mention" href="/u/carlton">@carlton</a> I genuinely wish I could respond more humbly, but the way this has unfolded makes it hard — and sadly, I’m not MSD to handle it all with silence and a smile.
+PalaashU: Good evening <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/s.anand">@s.anand</a> Sir,<br>
+I hope you are well
+According to the grading document, we were told that only the best 4 out of the 7 assessments would count towards our final grade. There was no mention of any bonus marks, and we were not informed about the +5 bonus marks for GA7 before the deadline. Because of other academic commitments like Project 2, some of us couldn’t complete GA7.
+Recently, we found out that some students received an email saying they’ve been given +5 bonus marks for GA7, which directly affects their final score and possibly their overall grade. Since this information wasn’t shared earlier, we kindly request you to consider offering an alternative way for those who missed GA7 to earn the bonus marks. This could be through a submission review or another form of assessment.
+We genuinely hope for your understanding and would be very grateful if you could provide a chance for us to earn the bonus marks too.
+Best regards,<br>
+Palaash V. Upadhyay
+Vedant22: <aside class="quote group-ds-students" data-username="23f2004912" data-post="7" data-topic="172246">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004912/48/108710_2.png" class="avatar"> 23f2004912:</div>
+<blockquote>
+There seems to be a sudden and unannounced change in the GA marking scheme, which feels quite arbitrary. Initially, we were told that GA would carry 15% weight, calculated as the best 4 out of 7. Based on this, after scoring full marks in four GAs, I didn’t attempt the rest. Even then, I did complete GA5 and GA6, which you can verify.
+Now I’m seeing in groups that there’s an “extra benefit” being given for GA7. If any changes are being made to the evaluation criteria, they should be communicated clearly via email or discourse. Transparency is important, and as students, we have the right to be informed about such decisions in advance.
+I could point out several other issues, but to keep it brief — grading should be fair and consistent. Every student deserves an equal opportunity, and if GA7 is being considered differently, everyone should have the chance to attempt or review it accordingly.
+</blockquote>
+</aside>
+There seems to be a sudden and unannounced change in the GA marking scheme, which feels quite arbitrary. Initially, we were told that GA would carry 15% weight, calculated as the best 4 out of 7. Based on this, after scoring full marks in four GAs, I didn’t attempt the rest. Even then, I did complete GA5 and GA6, which you can verify.
+Now I’m seeing in groups that there’s an “extra benefit” being given for GA7. If any changes are being made to the evaluation criteria, they should be communicated clearly via email or discourse. Transparency is important, and as students, we have the right to be informed about such decisions in advance.
+I could point out several other issues, but to keep it brief — grading should be fair and consistent. Every student deserves an equal opportunity, and if GA7 is being considered differently, everyone should have the chance to attempt or review it accordingly.<br>
+<a class="mention" href="/u/carlton">@carlton</a> sir please look into this
+Sonshre8585: <a class="mention" href="/u/carlton">@carlton</a>  <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a><br>
+Yes sir , we have completed all the previous ga but not able to do week 7  , we feel that the bonus should be given to all on the basis of ga and not only on week 7 . Or it should have been informed earlier if such bonus was to be given . Please do consider our request . Thank you
+23f1000598: Exactly , They have to informed this earlier , that week 7 have peer marks too , and now bonus too<br>
+in the grading doc , they removed peer marks , so i thought it was removed , but its not
+23f2002121: <a class="mention" href="/u/carlton">@carlton</a>  <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/s.anand">@s.anand</a>
+The sudden introduction of bonus marks for GA7 in Tools in Data Science has left many students confused, as there was no prior intimation regarding this change. We had all planned our submissions based on the clearly communicated “best 4 out of 7” policy. This unexpected shift has raised concerns about transparency and fairness principles that should be central to academic assessment. Fairness is not a privilege to be selectively granted; it is a fundamental right for every student. We respectfully urge the course coordinators to offer clarification and ensure that all students are evaluated on an equal footing. We hope the final grading reflects both justice and academic integrity.
+Haricharan: <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a> <a class="mention" href="/u/saransh_saini">@Saransh_Saini</a> <a class="mention" href="/u/s.anand">@s.anand</a><br>
+Yes Sir, I also completed 6 GAs even tho it was written only best 4 out of 7 GAs would be considered for final grade, but couldn’t complete GA 7 due to pressure of other subjects, if it was written in the grading document I would have done it, hoping you would understand Sir, Please do consider our request.<br>
+Thank you
+Namannn28: <a class="mention" href="/u/carlton">@carlton</a> sir in the grading document it was mentioned best 4 out of 7 assignments but I did 6 GAs but skipped GA7 due to other assignments and projects but now we got to know that 5 bonus marks are given in ga 7 which seems unfair to all of us as mostly people who did GA7 are the one who were not able to complete previous GAs so giving bonus for the last day give them a edge
+If it was announced before deadline of GA 7 it was okay and good for us to improve our grade but now it seems quite unfair so, please come with the best possible solution for this
+Thanking you
+waiting for your answer
+
+
+--- Repeat course ---
+
+Sagan: Even if I pass in end term TDS, Can I repeat the course in next term because I missed project1 and my CGPA will go down because of it?
+This is my last term of diploma. So, can I take 1 diploma course and rest degree courses in next term?
+lakshaygarg654: Yes, you can.<br>
+More details given in student handbook. Search for repeat courses.
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/3/03024426b9416b9dc7e7ecffa58a7123dae81036.jpeg" data-download-href="/uploads/short-url/qChQ8qgUeBzsfY0LNoluOXGRKu.jpeg?dl=1" title="1000433920" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/3/03024426b9416b9dc7e7ecffa58a7123dae81036_2_690x254.jpeg" alt="1000433920" data-base62-sha1="qChQ8qgUeBzsfY0LNoluOXGRKu" width="690" height="254" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/3/03024426b9416b9dc7e7ecffa58a7123dae81036_2_690x254.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/3/03024426b9416b9dc7e7ecffa58a7123dae81036_2_1035x381.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/3/03024426b9416b9dc7e7ecffa58a7123dae81036.jpeg 2x" data-dominant-color="E7E7E7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">1000433920</span><span class="informations">1079×398 104 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+carlton: TDS is the worst subject to repeat in order to improve CGPA.
+Its better to take a high credit, easy course to improve CGPA. <strong>We never recommend taking TDS for grade improvement.</strong> If you have passed it, its better to move on.
+22f3000639: <a class="mention" href="/u/carlton">@carlton</a><br>
+Sir, It is my humble request to kindly give atleast 2 bonus marks like any other subject, if i will get 2 marks as bonus my grade will stay good otherwise it will fall badly.
+Sir plzzz it is my request.
+carlton: Just as matter of interest, even on campus IITM MTech students take foundation Python course from BS Program to artificially improve their on campus CGPA (they take it as an elective).
+So if the CGPA is that big a deal, do an easy 4 credit course and get an S. Dont repeat hard subjects, thats just a waste of time.
+carlton: This is not up to us. We make adjustments within assignments and projects and we have done that already. For course level bonuses, that is the discretion of operations.
+
+
+--- END TERM MOCK [TDS Jan 25] ---
+
+carlton: <h1><a name="p-617737-mock-exam-tools-in-data-science-1" class="anchor" href="#p-617737-mock-exam-tools-in-data-science-1"></a>Mock Exam: Tools in Data Science</h1>
+<h4><a name="p-617737-the-end-term-and-the-mock-has-been-created-using-the-tds-gpt-assistant-since-the-gpt-has-all-the-gas-course-content-modules-live-session-transcriptions-its-works-like-rag-it-is-really-able-to-help-you-prepare-for-the-end-term-use-it-2" class="anchor" href="#p-617737-the-end-term-and-the-mock-has-been-created-using-the-tds-gpt-assistant-since-the-gpt-has-all-the-gas-course-content-modules-live-session-transcriptions-its-works-like-rag-it-is-really-able-to-help-you-prepare-for-the-end-term-use-it-2"></a>The end term and the mock has been created using the TDS GPT Assistant. Since the GPT has ALL the GAs, Course Content Modules, Live Session Transcriptions (its works like RAG), it is really able to help you prepare for the end term. Use it!</h4>
+Therefore you can also create your own mocks.
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://chatgpt.com/g/g-mZqKVxKDx-iitm-tds-teaching-assistant">
+  <header class="source">
+      <img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/6/9/694ce72c03000e3ef7ba33ce5f9f14d721099bcb.png" class="site-icon" data-dominant-color="3D3D3D" width="48" height="48">
+
+      <a href="https://chatgpt.com/g/g-mZqKVxKDx-iitm-tds-teaching-assistant" target="_blank" rel="noopener">ChatGPT</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://chatgpt.com/g/g-mZqKVxKDx-iitm-tds-teaching-assistant" target="_blank" rel="noopener">ChatGPT - IITM TDS Teaching Assistant</a></h3>
+
+  TA for IIT Madras' Data Science course, guiding students with questions.
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+Below are variant questions across various topics relevant to the course. These questions have been curated from the topics areas we are focussing on. Therefore it will be very similar in content to the end term.
+<blockquote>
+What it does not contain: Scenario based questions. These are complex to construct. We will address the topics for these questions in the live session.
+</blockquote>
+<ul>
+<li>LLMs</li>
+<li>Pandas</li>
+<li>Git, Docker, Bash</li>
+</ul>
+<hr>
+<h3><a name="p-617737-q1-http-method-semantics-3" class="anchor" href="#p-617737-q1-http-method-semantics-3"></a>Q1: HTTP Method Semantics</h3>
+Which HTTP method is <strong>not idempotent</strong>, meaning repeated identical requests <strong>may</strong> result in different outcomes each time?
+<ul>
+<li>A. GET</li>
+<li>B. PUT</li>
+<li>C. POST</li>
+<li>D. DELETE</li>
+</ul>
+<strong>Answer</strong>: C. POST
+<h3><a name="p-617737-q2-ide-features-4" class="anchor" href="#p-617737-q2-ide-features-4"></a>Q2: IDE Features</h3>
+Which feature is <strong>least likely</strong> to be found in a standard code editor or IDE?
+<ul>
+<li>A. Code formatting tools</li>
+<li>B. Integrated terminal</li>
+<li>C. Git integration</li>
+<li>D. Cloud hosting of Docker containers</li>
+</ul>
+<strong>Answer</strong>: D. Cloud hosting of Docker containers
+<h3><a name="p-617737-q3-pandas-summary-methods-5" class="anchor" href="#p-617737-q3-pandas-summary-methods-5"></a>Q3: Pandas Summary Methods</h3>
+You have a DataFrame with a <code>region</code> column. To get a quick summary of how many entries are in each region, which method is most useful?
+<ul>
+<li>A. df.describe()</li>
+<li>B. df[“region”].value_counts()</li>
+<li>C. df.count()</li>
+<li>D. df.groupby(“region”).sum()</li>
+</ul>
+<strong>Answer</strong>: B. df[“region”].value_counts()
+<h3><a name="p-617737-q4-python-exception-scope-6" class="anchor" href="#p-617737-q4-python-exception-scope-6"></a>Q4: Python Exception Scope</h3>
+You want to safely open a file, handle any errors, and ensure the file is always closed in Python. Which pattern should you use?
+<ul>
+<li>A. <code>try: open(...)</code> then <code>finally: close()</code></li>
+<li>B. <code>open()</code> and then <code>except</code></li>
+<li>C. <code>open()</code> and then <code>raise</code></li>
+<li>D. Use <code>with open(...) as f:</code> block</li>
+</ul>
+<strong>Answer</strong>: D. Use <code>with open(...) as f:</code> block
+<h3><a name="p-617737-q5-chrome-devtools-debugging-7" class="anchor" href="#p-617737-q5-chrome-devtools-debugging-7"></a>Q5: Chrome DevTools - Debugging</h3>
+A frontend developer wants to trace JavaScript function calls step-by-step. Which <strong>Chrome DevTools</strong> panel should they use?
+<ul>
+<li>A. Console</li>
+<li>B. Application</li>
+<li>C. Sources</li>
+<li>D. Elements</li>
+</ul>
+<strong>Answer</strong>: C. Sources
+<h3><a name="p-617737-q6-data-cleaning-tools-8" class="anchor" href="#p-617737-q6-data-cleaning-tools-8"></a>Q6: Data Cleaning Tools</h3>
+You are cleaning survey responses and want to automatically match similar text entries like “NYC”, “New York City”, and “newyorkcity”. Which approach/tool would be most effective?
+<ul>
+<li>A. <code>TRIM()</code> in Excel</li>
+<li>B. Manual Find and Replace</li>
+<li>C. Fuzzy matching or clustering in OpenRefine</li>
+<li>D. COUNTIF()</li>
+</ul>
+<strong>Answer</strong>: C. Fuzzy matching or clustering in OpenRefine
+<h3><a name="p-617737-q7-geospatial-libraries-9" class="anchor" href="#p-617737-q7-geospatial-libraries-9"></a>Q7: Geospatial Libraries</h3>
+Which pair of Python libraries is best suited for <strong>geospatial analysis</strong> and <strong>rendering static maps</strong>?
+<ul>
+<li>A. pandas and seaborn</li>
+<li>B. geopandas and matplotlib</li>
+<li>C. folium and flask</li>
+<li>D. sklearn and dash</li>
+</ul>
+<strong>Answer</strong>: B. geopandas and matplotlib
+<h3><a name="p-617737-q8-statistical-significance-10" class="anchor" href="#p-617737-q8-statistical-significance-10"></a>Q8: Statistical Significance</h3>
+A psychologist tests if a training program changes memory performance and finds a p-value of <strong>0.08</strong>. What can be concluded at the 0.05 significance level?
+<ul>
+<li>A. The result is highly significant</li>
+<li>B. The null hypothesis must be rejected</li>
+<li>C. There is insufficient evidence to reject the null hypothesis</li>
+<li>D. The program is proven to work</li>
+</ul>
+<strong>Answer</strong>: C. There is insufficient evidence to reject the null hypothesis
+<h3><a name="p-617737-q9-purpose-of-kumu-11" class="anchor" href="#p-617737-q9-purpose-of-kumu-11"></a>Q9: Purpose of Kumu</h3>
+What is a key use case for a tool like <strong>Kumu</strong>?
+<ul>
+<li>A. Animating time series</li>
+<li>B. Designing deep learning models</li>
+<li>C. Visualizing stakeholder networks and system relationships</li>
+<li>D. Performing statistical analysis</li>
+</ul>
+<strong>Answer</strong>: C. Visualizing stakeholder networks and system relationships
+<h3><a name="p-617737-q10-devtools-performance-diagnostics-12" class="anchor" href="#p-617737-q10-devtools-performance-diagnostics-12"></a>Q10: DevTools Performance Diagnostics</h3>
+To diagnose a slow webpage, you want to <strong>analyze scripts, rendering times, and long tasks</strong>. Which DevTools panel provides a timeline-based view?
+<ul>
+<li>A. Elements</li>
+<li>B. Performance</li>
+<li>C. Network</li>
+<li>D. Lighthouse</li>
+</ul>
+<strong>Answer</strong>: B. Performance
+<h3><a name="p-617737-q11-git-configuration-13" class="anchor" href="#p-617737-q11-git-configuration-13"></a>Q11: Git Configuration</h3>
+Which of the following files helps configure a Git project’s name, email, and default branch?
+<ul>
+<li>A. <code>.gitignore</code></li>
+<li>B. <code>.gitattributes</code></li>
+<li>C. <code>.git/config</code></li>
+<li>D. <code>README.md</code></li>
+</ul>
+<strong>Answer</strong>: C. <code>.git/config</code>
+<h3><a name="p-617737-q13-safe-http-method-14" class="anchor" href="#p-617737-q13-safe-http-method-14"></a>Q13: Safe HTTP Method</h3>
+Which HTTP method is considered <strong>safe</strong>, meaning it is only used for retrieval and <strong>must not change</strong> server state?
+<ul>
+<li>A. GET</li>
+<li>B. DELETE</li>
+<li>C. PATCH</li>
+<li>D. POST</li>
+</ul>
+<strong>Answer</strong>: A. GET
+<h3><a name="p-617737-q14-deduplicating-text-entries-15" class="anchor" href="#p-617737-q14-deduplicating-text-entries-15"></a>Q14: Deduplicating Text Entries</h3>
+A dataset has entries like “IBM”, “I.B.M.”, and “International Business Machines”. What is the best tool to cluster these for cleaning?
+<ul>
+<li>A. Excel TRIM</li>
+<li>B. OpenRefine using key collision or fingerprinting</li>
+<li>C. pandas merge()</li>
+<li>D. CONCATENATE()</li>
+</ul>
+<strong>Answer</strong>: B. OpenRefine using key collision or fingerprinting
+<h3><a name="p-617737-q15-geospatial-interactive-mapping-16" class="anchor" href="#p-617737-q15-geospatial-interactive-mapping-16"></a>Q15: Geospatial + Interactive Mapping</h3>
+A conservation biologist wants to visualize real-time animal tracking data on an interactive map. Which libraries would be best?
+<ul>
+<li>A. geopandas and plotly</li>
+<li>B. folium and pandas</li>
+<li>C. seaborn and shapely</li>
+<li>D. rasterio and altair</li>
+</ul>
+<strong>Answer</strong>: B. folium and pandas
+<h3><a name="p-617737-q16-pandas-filtering-unique-entries-17" class="anchor" href="#p-617737-q16-pandas-filtering-unique-entries-17"></a>Q16: Pandas - Filtering Unique Entries</h3>
+You have a DataFrame of customer orders and want to list only those customers who ordered <strong>once</strong>. Which Pandas method chain is most suitable?
+<ul>
+<li>A. df.groupby(“customer”).sum()</li>
+<li>B. df[“customer”].value_counts() == 1</li>
+<li>C. df.drop_duplicates()</li>
+<li>D. df[“customer”].nunique()</li>
+</ul>
+<strong>Answer</strong>: B. df[“customer”].value_counts() == 1
+<h3><a name="p-617737-q17-purpose-of-kumu-in-system-design-18" class="anchor" href="#p-617737-q17-purpose-of-kumu-in-system-design-18"></a>Q17: Purpose of Kumu in System Design</h3>
+How does Kumu help in system design or stakeholder mapping?
+<ul>
+<li>A. Organizing spreadsheets</li>
+<li>B. Identifying leverage points in complex systems through visual maps</li>
+<li>C. Rendering line graphs</li>
+<li>D. Sending notifications</li>
+</ul>
+<strong>Answer</strong>: B. Identifying leverage points in complex systems through visual maps
+<h3><a name="p-617737-q18-python-exception-multiple-handlers-19" class="anchor" href="#p-617737-q18-python-exception-multiple-handlers-19"></a>Q18: Python Exception - Multiple Handlers</h3>
+Which structure allows Python to handle different types of exceptions separately?
+<ul>
+<li>A. <code>try</code>…<code>finally</code></li>
+<li>B. <code>if</code>…<code>else</code></li>
+<li>C. Multiple <code>except</code> blocks</li>
+<li>D. Nested <code>try</code> blocks</li>
+</ul>
+<strong>Answer</strong>: C. Multiple <code>except</code> blocks
+<h3><a name="p-617737-q19-understanding-statistical-power-20" class="anchor" href="#p-617737-q19-understanding-statistical-power-20"></a>Q19: Understanding Statistical Power</h3>
+If a study has <strong>low statistical power</strong>, what is most likely to occur?
+<ul>
+<li>A. False positive (Type I error)</li>
+<li>B. False negative (Type II error)</li>
+<li>C. Confounding</li>
+<li>D. Multicollinearity</li>
+</ul>
+<strong>Answer</strong>: B. False negative (Type II error)
+<h3><a name="p-617737-q20-git-basics-staging-area-21" class="anchor" href="#p-617737-q20-git-basics-staging-area-21"></a>Q20: Git Basics - Staging Area</h3>
+Which Git command moves modified files to the <strong>staging area</strong>?
+<ul>
+<li>A. git push</li>
+<li>B. git add</li>
+<li>C. git fetch</li>
+<li>D. git init</li>
+</ul>
+<strong>Answer</strong>: B. git add
+<h3><a name="p-617737-q21-chrome-devtools-local-storage-22" class="anchor" href="#p-617737-q21-chrome-devtools-local-storage-22"></a>Q21: Chrome DevTools - Local Storage</h3>
+Where can you inspect <strong>local storage</strong> items (e.g. tokens, preferences) in Chrome DevTools?
+<ul>
+<li>A. Console</li>
+<li>B. Application &gt; Local Storage</li>
+<li>C. Elements</li>
+<li>D. Sources</li>
+</ul>
+<strong>Answer</strong>: B. Application &gt; Local Storage
+<h3><a name="p-617737-q22-chrome-devtools-js-performance-23" class="anchor" href="#p-617737-q22-chrome-devtools-js-performance-23"></a>Q22: Chrome DevTools - JS Performance</h3>
+Which DevTools feature helps measure execution time of scripts and CPU usage?
+<ul>
+<li>A. Console</li>
+<li>B. Network</li>
+<li>C. Performance</li>
+<li>D. Application</li>
+</ul>
+<strong>Answer</strong>: C. Performance
+<h3><a name="p-617737-q23-excel-data-import-scientific-notation-issue-24" class="anchor" href="#p-617737-q23-excel-data-import-scientific-notation-issue-24"></a>Q23: Excel Data Import - Scientific Notation Issue</h3>
+You import a CSV file where product IDs like <code>"1E10"</code> are being interpreted as scientific notation in Excel. What is the best way to preserve these IDs as text?
+<ul>
+<li>A. Format the column as General</li>
+<li>B. Use <code>=TEXT(A1, "0")</code> after import</li>
+<li>C. Set column format to Text during import or Text-to-Columns</li>
+<li>D. Change regional settings</li>
+</ul>
+<strong>Answer</strong>: C. Set column format to Text during import or Text-to-Columns
+<hr>
+<h3><a name="p-617737-module-everyday-tools-25" class="anchor" href="#p-617737-module-everyday-tools-25"></a>Module: Everyday Tools</h3>
+<strong>Q1: Spreadsheet Functions</strong>
+You have a dataset in Excel where column A contains full names in the format “Last Name, First Name”. Which function can you use to extract the first name into a separate column?
+<ul>
+<li>A. <code>=LEFT(A1, FIND(",", A1)-1)</code></li>
+<li>B. <code>=RIGHT(A1, LEN(A1) - FIND(",", A1))</code></li>
+<li>C. <code>=MID(A1, FIND(",", A1)+2, LEN(A1))</code></li>
+<li>D. <code>=SPLIT(A1, ",")</code></li>
+</ul>
+<strong>Answer</strong>: C — The <code>MID</code> function extracts text from the middle of a string. By finding the position of the comma and adding 2 (to skip the comma and space), it extracts the first name. Option A extracts the last name, Option B results in an error due to incorrect syntax, and Option D is not a valid Excel function.
+<hr>
+<h3><a name="p-617737-module-data-sourcing-26" class="anchor" href="#p-617737-module-data-sourcing-26"></a>Module: Data Sourcing</h3>
+<strong>Q2: Web Scraping Ethics</strong>
+When performing web scraping to collect data, which of the following practices is considered unethical?
+<ul>
+<li>A. Respecting the website’s <code>robots.txt</code> file.</li>
+<li>B. Sending requests at a rate that mimics human browsing behavior.</li>
+<li>C. Scraping data from a website that requires login without permission.</li>
+<li>D. Citing the source of the data collected.</li>
+</ul>
+<strong>Answer</strong>: C — Scraping data from a website that requires login without permission violates the site’s terms of service and user privacy. Options A, B, and D are ethical practices that respect the website’s policies and data ownership.
+<hr>
+<h3><a name="p-617737-module-data-preparation-27" class="anchor" href="#p-617737-module-data-preparation-27"></a>Module: Data Preparation</h3>
+<strong>Q3: Handling Missing Data</strong>
+In a dataset, you notice that several entries in the “Age” column are missing. Which method is generally <strong>not</strong> appropriate for handling these missing values?
+<ul>
+<li>A. Replacing missing values with the mean age.</li>
+<li>B. Deleting rows with missing age values.</li>
+<li>C. Replacing missing values with a fixed age, such as 0.</li>
+<li>D. Leaving the missing values as they are without any action.</li>
+</ul>
+<strong>Answer</strong>: D — Leaving missing values unaddressed can lead to errors in analysis and modeling. Options A, B, and C are common strategies for handling missing data, depending on the context and the extent of the missingness.
+<hr>
+<h3><a name="p-617737-module-data-analysis-28" class="anchor" href="#p-617737-module-data-analysis-28"></a>Module: Data Analysis</h3>
+<strong>Q4: Statistical Measures</strong>
+Which of the following statistical measures is <strong>not</strong> sensitive to extreme values (outliers) in a dataset?
+<ul>
+<li>A. Mean</li>
+<li>B. Median</li>
+<li>C. Standard Deviation</li>
+<li>D. Range</li>
+</ul>
+<strong>Answer</strong>: B — The median represents the middle value of a dataset and is not affected by outliers. In contrast, the mean, standard deviation, and range can be significantly influenced by extreme values.
+<hr>
+<h3><a name="p-617737-module-large-language-models-29" class="anchor" href="#p-617737-module-large-language-models-29"></a>Module: Large Language Models</h3>
+<strong>Q5: Tokenization in NLP</strong>
+In Natural Language Processing, what is the primary purpose of tokenization?
+<ul>
+<li>A. To translate text from one language to another.</li>
+<li>B. To split text into individual words or subwords.</li>
+<li>C. To encrypt text for secure communication.</li>
+<li>D. To summarize large texts into shorter versions.</li>
+</ul>
+<strong>Answer</strong>: B — Tokenization involves breaking down text into smaller components, such as words or subwords, which can then be processed by language models. This is a fundamental step in NLP tasks.
+<hr>
+<h3><a name="p-617737-module-geospatial-and-network-analysis-30" class="anchor" href="#p-617737-module-geospatial-and-network-analysis-30"></a>Module: Geospatial and Network Analysis</h3>
+<strong>Q6: Geographic Coordinate Systems</strong>
+Which of the following coordinate systems is commonly used to represent locations on Earth’s surface?
+<ul>
+<li>A. Cartesian Coordinate System</li>
+<li>B. Polar Coordinate System</li>
+<li>C. Geographic Coordinate System (Latitude and Longitude)</li>
+<li>D. Cylindrical Coordinate System</li>
+</ul>
+<strong>Answer</strong>: C — The Geographic Coordinate System uses latitude and longitude to specify locations on Earth’s surface. This system is widely used in geospatial analysis.
+<hr>
+<h3><a name="p-617737-module-data-visualization-31" class="anchor" href="#p-617737-module-data-visualization-31"></a>Module: Data Visualization</h3>
+<strong>Q7: Effective Data Visualization</strong>
+When creating a bar chart to compare the sales performance of different products, which practice should be avoided?
+<ul>
+<li>A. Ordering bars from highest to lowest value.</li>
+<li>B. Using different colors for each bar without a legend.</li>
+<li>C. Starting the y-axis at zero.</li>
+<li>D. Labeling each bar with its exact value.</li>
+</ul>
+<strong>Answer</strong>: B — Using different colors for each bar without a legend can confuse the audience, as they may assume the colors represent different categories. Consistency and clarity are key in effective data visualization.
+<hr>
+<h3><a name="p-617737-module-everyday-tools-32" class="anchor" href="#p-617737-module-everyday-tools-32"></a>Module: Everyday Tools</h3>
+<strong>Q8: VS Code Feature Use</strong>
+You are editing a Python script in Visual Studio Code and want to quickly find and edit all occurrences of a variable name in the current file. What feature should you use?
+<ul>
+<li>A. Git integration</li>
+<li>B. Debug panel</li>
+<li>C. <strong>Multi-cursor editing</strong></li>
+<li>D. Terminal commands</li>
+</ul>
+<strong>Answer</strong>: C — Multi-cursor editing allows you to place multiple cursors in a file and edit text in multiple locations at once. It is useful for refactoring variable names or repeated patterns.
+<hr>
+<h3><a name="p-617737-module-data-sourcing-33" class="anchor" href="#p-617737-module-data-sourcing-33"></a>Module: Data Sourcing</h3>
+<strong>Q9: Data API Identification</strong>
+Which of the following data sources is most likely to provide structured data accessible via an API?
+<ul>
+<li>A. A scanned PDF document</li>
+<li>B. A screenshot of a chart</li>
+<li>C. <strong>The World Bank data portal</strong></li>
+<li>D. A newspaper article</li>
+</ul>
+<strong>Answer</strong>: C — The World Bank data portal provides structured datasets accessible via APIs. The other options involve unstructured or image-based content not suitable for direct data access.
+<hr>
+<h3><a name="p-617737-module-data-preparation-34" class="anchor" href="#p-617737-module-data-preparation-34"></a>Module: Data Preparation</h3>
+<strong>Q10: Data Type Conversion in Excel</strong>
+You imported a CSV file into Excel, and one of the columns containing numbers is treated as text. What is the easiest way to convert it into numeric format?
+<ul>
+<li>A. Use the CONCAT function</li>
+<li>B. Format the column as Text</li>
+<li>C. <strong>Use the VALUE() function</strong></li>
+<li>D. Use SUBSTITUTE()</li>
+</ul>
+<strong>Answer</strong>: C — The VALUE function converts text that appears as numbers into actual numeric values. This is useful when data is imported with formatting issues.
+<hr>
+<h3><a name="p-617737-module-data-analysis-35" class="anchor" href="#p-617737-module-data-analysis-35"></a>Module: Data Analysis</h3>
+<strong>Q11: Outlier Detection</strong>
+You are analyzing a dataset of employee salaries. Which visualization is best for quickly identifying outliers?
+<ul>
+<li>A. Line chart</li>
+<li>B. <strong>Box plot</strong></li>
+<li>C. Histogram</li>
+<li>D. Pie chart</li>
+</ul>
+<strong>Answer</strong>: B — A box plot clearly shows the spread of data and highlights outliers as individual points beyond the whiskers.
+<hr>
+<h3><a name="p-617737-module-large-language-models-36" class="anchor" href="#p-617737-module-large-language-models-36"></a>Module: Large Language Models</h3>
+<strong>Q12: Prompt Engineering Strategy</strong>
+To get consistent, structured responses from a language model when extracting key information, which approach is most effective?
+<ul>
+<li>A. Ask the model to “summarize” the text</li>
+<li>B. Use open-ended questions</li>
+<li>C. <strong>Use system messages and JSON schema formatting</strong></li>
+<li>D. Provide only one-word inputs</li>
+</ul>
+<strong>Answer</strong>: C — System messages and structured output formats like JSON schemas guide the model to generate reliable and consistent structured responses.
+<hr>
+<h3><a name="p-617737-module-geospatial-and-network-analysis-37" class="anchor" href="#p-617737-module-geospatial-and-network-analysis-37"></a>Module: Geospatial and Network Analysis</h3>
+<strong>Q13: Network Centrality</strong>
+In a social network graph of coworkers, which metric best identifies the person who connects the most groups together?
+<ul>
+<li>A. Degree centrality</li>
+<li>B. Closeness centrality</li>
+<li>C. <strong>Betweenness centrality</strong></li>
+<li>D. Eigenvector centrality</li>
+</ul>
+<strong>Answer</strong>: C — Betweenness centrality measures how often a node appears on shortest paths between other nodes, highlighting connectors or “bridges” in the network.
+<hr>
+<h3><a name="p-617737-module-data-visualization-38" class="anchor" href="#p-617737-module-data-visualization-38"></a>Module: Data Visualization</h3>
+<strong>Q14: Choosing the Right Chart</strong>
+You want to show how the composition of a marketing budget changes across three years. Which visualization is most appropriate?
+<ul>
+<li>A. Pie charts for each year</li>
+<li>B. Scatter plots</li>
+<li>C. <strong>Stacked bar chart</strong></li>
+<li>D. Line chart</li>
+</ul>
+<strong>Answer</strong>: C — A stacked bar chart shows parts of a whole across different categories and time periods, making it easier to compare budget composition over years.
+carlton: 
+22f3002723: <a class="mention" href="/u/carlton">@carlton</a> <a class="mention" href="/u/jivraj">@Jivraj</a><br>
+any link for last term’s end term question answer
+22f3001307: <aside class="onebox allowlistedgeneric" data-onebox-src="https://quizpractice.space/exam/7a6ff569-f50c-40e7-a08b-f5c334392600">
+  <header class="source">
+      <img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/8/7/874d0312bcd327ca91ab204f36071f2c8fef3dd5.png" class="site-icon" data-dominant-color="909090" width="16" height="16">
+
+      <a href="https://quizpractice.space/exam/7a6ff569-f50c-40e7-a08b-f5c334392600" target="_blank" rel="noopener nofollow ugc">quizpractice.space</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/362;"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/f/0fe1fe85fe70c59ec7887abe416fffdf379ffcf3_2_690x362.png" class="thumbnail" data-dominant-color="6F7379" width="690" height="362"></div>
+
+<h3><a href="https://quizpractice.space/exam/7a6ff569-f50c-40e7-a08b-f5c334392600" target="_blank" rel="noopener nofollow ugc">Practise End Term Quiz Question Papers</a></h3>
+
+  Practice with IITM's online BS degree question papers and quizzes to improve your preparation.
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+23f2003751: So here is more questions in the form of a little quiz (shared by someone in the group,DM for Credit <img src="https://emoji.discourse-cdn.com/google/smiling_face_with_three_hearts.png?v=14" title=":smiling_face_with_three_hearts:" class="emoji" alt=":smiling_face_with_three_hearts:" loading="lazy" width="20" height="20">)<aside class="onebox allowlistedgeneric" data-onebox-src="https://gkmfrombs.github.io/tds_quiz/">
+  <header class="source">
+
+      <a href="https://gkmfrombs.github.io/tds_quiz/" target="_blank" rel="noopener nofollow ugc">gkmfrombs.github.io</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://gkmfrombs.github.io/tds_quiz/" target="_blank" rel="noopener nofollow ugc">Quiz from PDF</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+That has 350 questions if you don’t want to go through all of them(it’s pretty time consuming)<br>
+in that case just do this PDF.(This pdf contains all the questions that is a bit conceptual i would say and some questions which i failed to do <img src="https://emoji.discourse-cdn.com/google/smiling_face_with_tear.png?v=14" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20"> )
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TdXX4mcWaA-ugY9nL0hm1zTa_SJGic3T%2Fview%3Fusp%3Dsharing&amp;followup=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TdXX4mcWaA-ugY9nL0hm1zTa_SJGic3T%2Fview%3Fusp%3Dsharing&amp;ifkv=AXH0vVsCl9rHQxcRPKDEBdF3oOkGtLRjZ-BFKdcccxSGUFkdSijsEgmjtYG0tuTwCSdBHRs3zNjm3g&amp;osid=1&amp;passive=1209600&amp;service=wise&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S-1894439260%3A1744401916671974">
+  <header class="source">
+
+      <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TdXX4mcWaA-ugY9nL0hm1zTa_SJGic3T%2Fview%3Fusp%3Dsharing&amp;followup=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TdXX4mcWaA-ugY9nL0hm1zTa_SJGic3T%2Fview%3Fusp%3Dsharing&amp;ifkv=AXH0vVsCl9rHQxcRPKDEBdF3oOkGtLRjZ-BFKdcccxSGUFkdSijsEgmjtYG0tuTwCSdBHRs3zNjm3g&amp;osid=1&amp;passive=1209600&amp;service=wise&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S-1894439260%3A1744401916671974" target="_blank" rel="noopener nofollow ugc">accounts.google.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TdXX4mcWaA-ugY9nL0hm1zTa_SJGic3T%2Fview%3Fusp%3Dsharing&amp;followup=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TdXX4mcWaA-ugY9nL0hm1zTa_SJGic3T%2Fview%3Fusp%3Dsharing&amp;ifkv=AXH0vVsCl9rHQxcRPKDEBdF3oOkGtLRjZ-BFKdcccxSGUFkdSijsEgmjtYG0tuTwCSdBHRs3zNjm3g&amp;osid=1&amp;passive=1209600&amp;service=wise&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S-1894439260%3A1744401916671974" target="_blank" rel="noopener nofollow ugc">Google Drive: Sign-in</a></h3>
+
+  Access Google Drive with a Google account (for personal use) or Google Workspace account (for business use).
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+(If you know context to the pdf’s name,we are friends <img src="https://emoji.discourse-cdn.com/google/grin.png?v=14" title=":grin:" class="emoji" alt=":grin:" loading="lazy" width="20" height="20">)
+Thank you,<br>
+Kindeeesstt Regards,(hopefully the last post on discourse for TDS),<br>
+Tushar Jalan
+22f3002248: Thank you for your efforts<br>
+Thanks
+Edit: Opened in incognito and it worked.
+24ds3000061: Hi <a class="mention" href="/u/carlton">@carlton</a> please upload the recording of Thursday’s TDS session on the YouTube playlist
+Venkatesh_2k01: <a class="mention" href="/u/carlton">@carlton</a> sir i have done the 350 questions . i am able to answer 80% of the questions on my own, correctly. will end term also be similar to these questions? are pyqs any helpful ?
+Jivraj: <a href="https://drive.google.com/file/d/1nzmGBhYoIxY9ZRMoO5yksi3E7GH5xXub/view" rel="noopener nofollow ugc">Live Session - TDS - 2025/04/10 20:00 GMT+05:30 - Recording - Google Drive</a>
+Access recording through this gdrive link
+23f1002223: Thank you for the questions sir.
+
+
+--- PYQ Haversine ---
+
+Sagan: <div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/e/c/ec056436956f57e59ec82e28ba057bcac702e5b9.png" data-download-href="/uploads/short-url/xFWew9yxXiAf0RYldrLYeK0vB5D.png?dl=1" title="Screenshot (883)" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/c/ec056436956f57e59ec82e28ba057bcac702e5b9_2_690x388.png" alt="Screenshot (883)" data-base62-sha1="xFWew9yxXiAf0RYldrLYeK0vB5D" width="690" height="388" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/c/ec056436956f57e59ec82e28ba057bcac702e5b9_2_690x388.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/c/ec056436956f57e59ec82e28ba057bcac702e5b9_2_1035x582.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/c/ec056436956f57e59ec82e28ba057bcac702e5b9_2_1380x776.png 2x" data-dominant-color="252525"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot (883)</span><span class="informations">1920×1080 368 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/b/b/bbcfe87fc66baeed2b84b5fa886be843839c8f04.jpeg" data-download-href="/uploads/short-url/qNsJ9lnqvnyPQeMwALzzJDD2lTu.jpeg?dl=1" title="Screenshot (884)" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/b/bbcfe87fc66baeed2b84b5fa886be843839c8f04_2_690x388.jpeg" alt="Screenshot (884)" data-base62-sha1="qNsJ9lnqvnyPQeMwALzzJDD2lTu" width="690" height="388" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/b/bbcfe87fc66baeed2b84b5fa886be843839c8f04_2_690x388.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/b/bbcfe87fc66baeed2b84b5fa886be843839c8f04_2_1035x582.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/b/b/bbcfe87fc66baeed2b84b5fa886be843839c8f04_2_1380x776.jpeg 2x" data-dominant-color="5D5C5B"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot (884)</span><span class="informations">1920×1080 134 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/2/12e0850750ac2455a741c15bc7af8afb42e74fb8.png" data-download-href="/uploads/short-url/2GZCMKhSPtUSBuszG1LwyNQO7LG.png?dl=1" title="Screenshot (885)" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/2/12e0850750ac2455a741c15bc7af8afb42e74fb8_2_690x388.png" alt="Screenshot (885)" data-base62-sha1="2GZCMKhSPtUSBuszG1LwyNQO7LG" width="690" height="388" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/2/12e0850750ac2455a741c15bc7af8afb42e74fb8_2_690x388.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/2/12e0850750ac2455a741c15bc7af8afb42e74fb8_2_1035x582.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/2/12e0850750ac2455a741c15bc7af8afb42e74fb8_2_1380x776.png 2x" data-dominant-color="222221"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot (885)</span><span class="informations">1920×1080 315 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/d/b/dbc48b38657ebbba8ddaf78f346cba73b1d9b032.png" data-download-href="/uploads/short-url/vm9ES7tI4ZbPvvOh0fFQ6wAgMtI.png?dl=1" title="Screenshot (886)" rel="noopener nofollow ugc"><img src="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/b/dbc48b38657ebbba8ddaf78f346cba73b1d9b032_2_690x388.png" alt="Screenshot (886)" data-base62-sha1="vm9ES7tI4ZbPvvOh0fFQ6wAgMtI" width="690" height="388" srcset="https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/b/dbc48b38657ebbba8ddaf78f346cba73b1d9b032_2_690x388.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/b/dbc48b38657ebbba8ddaf78f346cba73b1d9b032_2_1035x582.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/b/dbc48b38657ebbba8ddaf78f346cba73b1d9b032_2_1380x776.png 2x" data-dominant-color="232322"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot (886)</span><span class="informations">1920×1080 308 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div>
+This question is in 2024 Dec22: IIT M FN EXAM QDD2<br>
+Can anyone tell how to solve this?
