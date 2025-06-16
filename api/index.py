@@ -5,6 +5,11 @@ import os, json, requests, base64, re, traceback
 
 app = FastAPI(title="TDS Virtual TA")
 
+@app.get("/")
+def read_root():
+    return {"message": "TDS Virtual TA is running!"}
+
+
 class QARequest(BaseModel):
     question: str
     image: Optional[str] = None
