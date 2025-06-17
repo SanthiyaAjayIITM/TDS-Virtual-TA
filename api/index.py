@@ -14,6 +14,15 @@ load_dotenv()
 
 app = FastAPI(title="TDS Virtual TA")
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class QARequest(BaseModel):
     question: str
@@ -161,3 +170,6 @@ async def answer_question(data: QARequest):
 def root():
     return {"message": "TDS Virtual TA is running!"}
 
+@app.get("/api/")
+def health_check():
+    return {"message": "Virtual TA API is working. Please send a POST request with a 'question'."}
